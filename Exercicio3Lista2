@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>JavaScript-Variáveis</title>
+        <meta charset= “utf-8”>
+
+
+    </head>
+        <body>
+            <div class="fundo">
+            <h1>Esses são os anos bissextos entre os anos de 1004 a 2022. </h1>
+            <script>
+ 
+    var n1 = 1004;
+    while (n1 <= 2022){
+    
+    if (n1 % 4 == 0 && n1 % 400 == 0) 
+            {
+            document.write(n1 + '<br>');
+            }
+            n1 = n1 + 1;
+    }
+            
+</script>
+        
+    </div>
+</body>
+</html>
