@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>JavaScript-Variáveis</title>
+        <meta charset= “utf-8”>
+
+
+    </head>
+        <body>
+            <div class="fundo">
+            <h1>Primeiros passos JavaScript</h1>
+            <script>
+ 
+    var n1 = 2000;
+    while (n1 <= 2022){
+    
+    if (n1 % 2 == 0)
+            {
+            document.write(n1 + '<br>');
+            }
+            n1 = n1 + 1;
+    }
+            
+</script>
+        
+    </div>
+</body>
+</html>
